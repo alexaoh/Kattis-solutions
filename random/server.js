@@ -17,3 +17,10 @@ const server = http.createServer((req, res) => {
 server.listen(8080, () => {
   debugLog('Node server is listening on 8080 port.')
 });
+
+/*
+CREDIT WHERE CREDIT IS DUE
+
+Written while reading the following article: https://dev.to/elanandkumar/on-demand-colorful-console-log-in-nodejs-1929
+(not finished reading)
+*/
