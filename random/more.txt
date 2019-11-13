@@ -6,3 +6,5 @@ https://realpython.com/python-testing/
 https://realpython.com/python-lambda/
 https://www.restapitutorial.com/lessons/whatisrest.html#
 https://www.google.com/search?client=firefox-b-d&q=dotfiles (google search for dotfiles)
+
+Lese litt om programmeringsspråket Wolfram! Finne ut litt om hvordan det kan brukes/hvordan det fungerer!
