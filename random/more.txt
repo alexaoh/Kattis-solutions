@@ -8,3 +8,7 @@ https://www.restapitutorial.com/lessons/whatisrest.html#
 https://www.google.com/search?client=firefox-b-d&q=dotfiles (google search for dotfiles)
 
 Lese litt om programmeringsspråket Wolfram! Finne ut litt om hvordan det kan brukes/hvordan det fungerer!
+
+https://www.metaltoad.com/blog/hosting-django-sites-apache
+--> Kan kanskje være en grei kilde å begynne med for hvordan man kan hoste en Django-side på en Apache-server
+
