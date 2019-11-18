@@ -7,6 +7,8 @@ https://realpython.com/python-lambda/
 https://www.restapitutorial.com/lessons/whatisrest.html#
 https://www.google.com/search?client=firefox-b-d&q=dotfiles (google search for dotfiles)
 
+Hadde vært kult å se nærmere på Joukowski-transformasjonen i kompleks analyse! Prøve å modellere airofilen via avbildningen?
+
 https://nbviewer.jupyter.org/urls/www.numfys.net/media/notebooks/Eulers_method_-_implementation-_done.ipynb
 
 Lese litt om programmeringsspråket Wolfram! Finne ut litt om hvordan det kan brukes/hvordan det fungerer!
