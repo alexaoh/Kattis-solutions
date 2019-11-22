@@ -19,6 +19,9 @@ https://nbviewer.jupyter.org/urls/www.numfys.net/media/notebooks/stationary_heat
 
 --> Finnes veldig mye kult på NumFys!!
 
+https://docs.djangoproject.com/en/1.9/howto/deployment/wsgi/
+--> Lenken over er fra dokumentasjonen til Django, om hvordan man deployer et Django-prosjekt!
+
 https://www.metaltoad.com/blog/hosting-django-sites-apache
 --> Kan kanskje være en grei kilde å begynne med for hvordan man kan hoste en Django-side på en Apache-server. Kan f.eks prøve å hoste siden oå folk.ntnu først, for å teste!
 
