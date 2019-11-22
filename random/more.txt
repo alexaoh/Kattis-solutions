@@ -15,6 +15,8 @@ https://nbviewer.jupyter.org/urls/www.numfys.net/media/notebooks/NumpyIntermedia
 
 Lese litt om programmeringsspråket Wolfram! Finne ut litt om hvordan det kan brukes/hvordan det fungerer!
 
+https://nbviewer.jupyter.org/urls/www.numfys.net/media/notebooks/stationary_heat_equation_1d.ipynb
+
 --> Finnes veldig mye kult på NumFys!!
 
 https://www.metaltoad.com/blog/hosting-django-sites-apache
