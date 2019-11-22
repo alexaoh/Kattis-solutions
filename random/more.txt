@@ -11,7 +11,11 @@ Hadde vært kult å se nærmere på Joukowski-transformasjonen i kompleks analys
 
 https://nbviewer.jupyter.org/urls/www.numfys.net/media/notebooks/Eulers_method_-_implementation-_done.ipynb
 
+https://nbviewer.jupyter.org/urls/www.numfys.net/media/notebooks/NumpyIntermediate.ipynb
+
 Lese litt om programmeringsspråket Wolfram! Finne ut litt om hvordan det kan brukes/hvordan det fungerer!
+
+--> Finnes veldig mye kult på NumFys!!
 
 https://www.metaltoad.com/blog/hosting-django-sites-apache
 --> Kan kanskje være en grei kilde å begynne med for hvordan man kan hoste en Django-side på en Apache-server. Kan f.eks prøve å hoste siden oå folk.ntnu først, for å teste!
