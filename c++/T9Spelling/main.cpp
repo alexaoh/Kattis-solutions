@@ -23,9 +23,18 @@ int main(){
 	intToChar[alphabet[1]] = 22;
 	intToChar[alphabet[2]] = 222;
 	intToChar['s'] = 7777;
+	intToChar['t'] = 8;
+	intToChar['u'] = 88;
+	intToChar['v'] = 888;
+	intToChar['w'] = 9;
+	intToChar['x'] = 99;
+	intToChar['y'] = 999;
 	intToChar['z'] = 9999;
+	intToChar[' '] = 0;
 
-	for (int i = 3; i <= 9; ++i){
+
+	//completes the map I use to map the characters to integers. 
+	for (int i = 3; i <= 7; ++i){
 		int one = concatenate(i,i);
 		int two = concatenate(one, i);
 		intToChar[alphabet[i+counter1]] = i; //A, D, G, ... --> indexes: 0, 3, 6, ...
@@ -38,23 +47,37 @@ int main(){
 
 	//Test code with given values from Kattis from this point onwards:
 	//Testing with sample input 1:
-
+	
+	vector<string> outputs;
 	int N{0};
 	cin >> N;
+	cin.ignore();
 	for (int i = 0; i < N; ++i){
-		cin.ignore();
 		string input;
+		string output = "Case #";
+		output += to_string(i+1);
+		output += ": ";
 		getline(cin, input);
-		string outputString{""};
-		for (int e = 0; e < input.size(); ++e){
-			char letter = input[e];
-			if (letter == ' '){
-				outputString += '0';
-			}
-			outputString += intToChar[letter];
-			cout << intToChar[letter];
+		char letter = input[0];	
+		if (isspace(static_cast<unsigned char>(letter))){
+			output += "0";
+		} else {
+			output += to_string(intToChar.at(letter));
 		}
-		cout << "Case#" << i+1 << ": " << outputString << endl; 
+		for (int e = 1; e < input.size(); ++e){
+			char letter = input[e];	
+			if (to_string(intToChar[input[e-1]])[0] == to_string(intToChar[letter])[0]){ //Trying to add space when necessary
+				output += " ";
+				output += to_string(intToChar.at(letter));
+			} else {
+				output += to_string(intToChar.at(letter));
+			}
+		}
+		outputs.push_back(output);
+	}
+	
+	for (auto x : outputs){
+		cout << x << endl;
 	}
 
 }
