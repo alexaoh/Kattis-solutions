@@ -9,9 +9,11 @@ class EulersNumber
         ulong n = UInt64.Parse(inp);
 
         decimal sum = 1.0M;
+        decimal factorial = 1.0M;
         for (ulong i = 1; i <= n; i++)
         {   
-            sum += (Decimal)1/fact(i);
+            factorial *= i;
+            sum += (Decimal)1/factorial;
         }
 
         Console.WriteLine(sum.ToString("F17"));
